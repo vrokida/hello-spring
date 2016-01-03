@@ -13,7 +13,7 @@ public class DemoApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
-		System.out.println("***********************************vero****************************");
+		System.out.println("***********************************vero22****************************");
 		return "Hello World!";
 	}
 
