@@ -13,10 +13,12 @@ public class DemoApplication {
 	@RequestMapping("/")
 	@ResponseBody
 	String home() {
+		System.out.println("***********************************vero****************************");
 		return "Hello World!";
 	}
 
 	public static void main(String[] args) {
+
 		SpringApplication.run(DemoApplication.class, args);
 	}
 }
